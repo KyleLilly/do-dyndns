@@ -1,0 +1,20 @@
+{
+  "version": "0.1.0",
+  "description": "Namecheap compatible service to update Digital Ocean DNS Records",
+  "main": "server.js",
+  "keywords": [],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Kyle Lilly <kylelilly@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KyleLilly/do-dyndns.git"
+  },
+  "dependencies": {
+    "hapi": "16.6.2",
+    "node-fetch": "1.7.3",
+    "scrypt": "6.0.3"
+  }
+}
